@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+body{
+  margin:0;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #fff;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.5);
+}
+.brandlogo{
+  color: lightgrey;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+margin-left: 10px;
+}
+.menubar{
+  float: right;
+  line-height: 2px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  padding: 7px;
+
+
+}
+.menubar li{
+  display:inline-block;
+  text-transform:uppercase;
+padding: 10px;
+font-size: 15px;
+color:lightgrey;
+
+
+}
+.menubar li a{
+  text-decoration: none;
+  color:black;
+  transition:all ease 300ms;
+}
+.menubar li a:hover{
+  color:#fff;
+
+}
+.logo{
+
+  font-size: 19px;
+transition: all ease 300ms;
+margin-top: 25px;
+color: #000;
+}
+.logo:hover{
+  color:#fff;
+}
+
+
+
+.bgimg{
+  background: url("../img/header.jpg");
+  background-size: 100%;
+  width:100%;
+  height:100%;
+}
+.head1{
+  text-transform: uppercase;
+
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.con1{
+  font-size: 67px;
+  font-family: "Open Sans";
+    margin-top: 0;
+
+}
+.content{
+  width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color:#fff;
+    margin: 0;
+}
+.info{
+  font-family: "Open Sans";
+      font-size: 25px;
+      background-color: #f05f40;
+      color: #fff;
+      border: 0;
+      padding: 10px 34px;
+      transition: all ease 300ms;
+      border-radius: 40px;
+      outline:none;
+  }
+
+.info:hover{
+  background-color:#F05F6B;
+
+}
+.img-holder {
+  width: 33.33%;
+  margin-left: -4px;
+  position: relative;
+  cursor: pointer;
+  display:inline-block;
+}
+.img-holder:first-child { margin-left: 0; }
+.img-holder .img-hov {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+  background-color: rgba(240, 95, 64, 0.9);
+  transition: all 300ms linear;
+
+}
+.img-holder:hover .img-hov {
+  display: block;
+  transition: all 300ms linear;
+}
+h4{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+margin: 0;
+}
+.sec1{
+  display: block;
+  line-height: 0px;
+}
+.part1{
+  text-align: center;
+  font-size:43px;
+  font-family: "Open Sans";
+
+}
+.fa{
+  float: left;
+margin-left: 25%;
+
+}
