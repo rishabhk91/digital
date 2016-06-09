@@ -48,9 +48,13 @@ color:lightgrey;
   text-decoration: none;
   color:black;
   transition:all ease 300ms;
+    border-bottom: 1px solid transparent;
+      padding-bottom: 29px;
 }
 .menubar li a:hover{
-  color:#fff;
+  color:black;
+  border-bottom: black 1px solid;
+
 
 }
 .logo{
